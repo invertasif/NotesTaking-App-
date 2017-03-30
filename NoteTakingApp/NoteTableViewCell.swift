@@ -11,7 +11,11 @@ import UIKit
 class NoteTableViewCell: UITableViewCell {
     @IBOutlet weak var messageCell: UILabel!
 
+    @IBOutlet weak var checkMarkLabel: UILabel!
+    
     @IBOutlet weak var title: UILabel!
+    
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
